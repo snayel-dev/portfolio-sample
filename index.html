@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoaib Nayel - Portfolio</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#about" class="logo">Mohammad Shoaib Nayel</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--About Section-->
+        <section id="about" class="container">
+            <div class="content">
+                <h1>Hi, I'm <span class="highlight">Shoaib Nayel</span>!</h1>
+                <p>
+                    I'm a passionate <strong>Data Analyst</strong> with a focus on <strong>Supply Data Solutions</strong>, eager to contribute to innovative projects.
+                    I specialize in transforming complex data into actionable insights.
+                </p>
+                <a href="#contact" class="contact-button">
+                    Get in Touch
+                </a>
+            </div>
+            <div class="profile-photo-container">
+                <img src="https://placehold.co/300x300/CED4DA/6C757D?text=Your+Photo" alt="Your Profile Photo" class="profile-photo">
+            </div>
+        </section>
+
+        <!--SKills Section-->
+        <section id="skills" class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <!--Card 1-->
+                <div class="skill-card">
+                    <div class="icon">&#128202;</div>
+                    <h3>Data Analysis</h3>
+                    <p>Proficient in statistical analysis and data interpretation.</p>
+                </div>
+
+                <!--Card 2-->
+                <div class="skill-card">
+                    <div class="icon">📈</div>
+                    <h3>SQL</h3>
+                    <p>Strong capabilities in databse querying and management.</p>
+                </div>
+
+                <!--Card 3-->
+                <div class="skill-card">
+                    <div class="icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Experience with data manipulation and scripting.</p>
+                </div>
+
+                <!--Card 4-->
+                <div class="skill-card">
+                    <div class="icon">&#128202;</div>
+                    <h3>Excel</h3>
+                    <p>Advanced skills in data modeling and visualization.</p>
+                </div>
+
+                <!--card 5-->
+                <div class="skill-card">
+                    <div class="icon">💡</div>
+                    <h3>Problem Solving</h3>
+                    <p>A knack for identifying issues and developing solutions.</p>
+                </div>
+
+                <!--Card 6-->
+                <div class="skill-card">
+                    <div class="icon">🗣️</div>
+                    <h3>Communication</h3>
+                    <p>Effectively conveying complex data insights.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects section-->
+        <section id="projects" class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!--Project card 1-->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/CED4DA/6C757D?text=Project+1+Image" alt="project 1">
+                    <div class="content">
+                        <h3>Supply Chain Optimization</h3>
+                        <p>Developed a data model to identify bottlenecks and optimize supply chain logistics, reducing delivery times by 15%.</p>
+                        <a href="#">View Details →</a>
+                    </div>
+                </div>
+
+                <!--Project card 2-->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/CED4DA/6C757D?text=Project+2+Image" alt="project 2">
+                    <div class="content">
+                        <h3>Customer Behavior Analysis</h3>
+                        <p>Analyzed customer purchasing patterns to segment users and inform targeted marketing campaigns.</p>
+                        <a href="#">View Details →</a>
+                    </div>
+                </div>
+
+                <!--Project card 3-->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/CED4DA/6C757D?text=Project+3+Image" alt="project 3">
+                    <div class="content">
+                        <h3>Inventory Forecasting Model</h3>
+                        <p>Built a predictive model to forecast inventory needs, leading to a 10% reduction in excess stock.</p>
+                        <a href="#">View Details →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section id="contact" class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-form-container">
+                <p>I'm currently seeking new opportunities. Feel free to reach out!</p>
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="5" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div class="social-links">
+                    <p>You can also find me on:</p>
+                    <div class="social-icons">
+                        <a href="#LinkedIn" target="_blank" aria-label="LinkedIn">&#x1F517;</a>
+                        <a href="#GitHub" target="_blank" aria-label="GitHub">&#x1F4BB;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© Mohammad Shoaib Nayel. All rights reserved.</p>
+            <p class="design-note">Designed with <span>♥</span> and Pure CSS</p>
+        </div>
+    </footer>
+</body>
+</html>
